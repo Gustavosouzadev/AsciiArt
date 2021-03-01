@@ -6,6 +6,7 @@ namespace AsciiArt
     {
         static void Main(string[] args)
         {
+            Console.Beep();
             Console.Clear();
            string L1 = " ||  ||";
            string L2 = "\\";
@@ -35,6 +36,7 @@ namespace AsciiArt
             Console.WriteLine(L4);
 
             Console.ResetColor();
+            Console.Beep();
         }
     }
 }
