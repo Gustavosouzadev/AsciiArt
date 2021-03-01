@@ -36,6 +36,7 @@ namespace AsciiArt
             Console.WriteLine(L4);
 
             Console.ResetColor();
+            
             Console.Beep();
         }
     }
